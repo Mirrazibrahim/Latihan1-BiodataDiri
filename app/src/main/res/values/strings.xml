@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BiodataDiri</string>
+    <string name="nama_lengkap_mirraz_ibrahim">Nama Lengkap : Mirraz Ibrahim</string>
+    <string name="nim_10118056">NIM : 10118056</string>
+    <string name="kelas_if_2">Kelas : IF-2</string>
+    <string name="pekerjaan_yang_diinginkan_android_developer">Pekerjaan Yang Diinginkan : Android Developer</string>
+    <string name="film_favorit_annabelle">Film Favorit : Annabelle</string>
+    <string name="lagu_favorit_wind_of_change_scorpions">Lagu Favorit : Wind Of Change - Scorpions</string>
+    <string name="hobi_jalan_jalan">Hobi : Jalan-Jalan</string>
+    <string name="minuman_kesukaan_thai_tea">Minuman Kesukaan : Thai Tea</string>
+    <string name="makanan_kesukaan_omelet_sosis_gs">Makanan Kesukaan : Omelet Sosis GS</string>
+    <string name="golongan_darah">Golongan Darah : -</string>
+    <string name="alamat_griya_permata_asri_blok_b7_no_19">Alamat : Griya Permata Asri Blok B7 no 19 Dalung, Cipocok Jaya, Serang</string>
+    <string name="ttl_cirebon_25_oktober_2000">TTL : Cirebon, 25 Oktober 2000</string>
+    <string name="jenis_kelamin_laki_laki">Jenis Kelamin : Laki-Laki</string>
+</resources>

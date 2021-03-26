@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2c2c54">
+
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Biodata"
+        android:layout_centerHorizontal="true"
+        android:textColor="#d1ccc0"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border="false"
+        android:layout_below="@id/biodata"
+        android:src="@drawable/profil"
+        app:civ_shadow="true"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="210dp"
+        android:background="#474787"
+        android:orientation="vertical"
+        android:padding="20dp"
+
+        android:id="@+id/relativeLayout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama_lengkap_mirraz_ibrahim"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+                <TextView
+                    android:id="@+id/nim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nim_10118056"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/kelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kelas_if_2"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/jeniskelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_kelamin_laki_laki"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+                <TextView
+                    android:id="@+id/ttl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ttl_cirebon_25_oktober_2000"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+                <TextView
+                    android:id="@+id/alamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat_griya_permata_asri_blok_b7_no_19"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/goldarah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/golongan_darah"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/makanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/makanan_kesukaan_omelet_sosis_gs"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/minuman"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minuman_kesukaan_thai_tea"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/hobi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hobi_jalan_jalan"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/lagu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lagu_favorit_wind_of_change_scorpions"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+                <TextView
+                    android:id="@+id/film"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/film_favorit_annabelle"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+                <TextView
+                    android:id="@+id/pekerjaan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pekerjaan_yang_diinginkan_android_developer"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#d1ccc0"
+                    android:fontFamily="sans-serif-condensed"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
